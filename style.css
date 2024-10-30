@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family:"Trebuchet MS";
+}
+
+.inputDiv, #summaryText, h1{
+    width: 100%;
+    justify-content: center;
+    display: inline-flex;
+    transition: all;
+}
+
+button{
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+#green {
+	box-shadow: 8px 8px 14px -7px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:4px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:32px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+#green:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+#green:active {
+	position:relative;
+	top:1px;
+}
+
+
+#yellow {
+	box-shadow: 8px 8px 14px -7px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:4px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:32px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+#yellow:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+#yellow:active {
+	position:relative;
+	top:1px;
+}
+
+#blue {
+	box-shadow: 8px 8px 14px -7px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:4px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:32px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b6178;
+}
+#blue:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+#blue:active {
+	position:relative;
+	top:1px;
+}
+
+
+#red {
+    box-shadow: 0px 0px 1px #d83526;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:4px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:32px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+
+}
+#red:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color:#e4685d;
+}
+#red:active {
+	position:relative;
+	top:1px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;  
+   
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.startButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.startButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.startButton:active {
+	position:relative;
+	top:1px;
+}
+
+.resetButton {
+	box-shadow: 0px 10px 14px -7px #e67a73;
+	background:linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+	background-color:#e4685d;
+	border-radius:8px;
+	display: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+    
+}
+.resetButton:hover {
+	background:linear-gradient(to bottom, #eb675e 5%, #e4685d 100%);
+	background-color:#eb675e;
+}
+.resetButton:active {
+	
+	position:relative;
+	top:1px;
+}
+
+
+        
+        
